@@ -9,11 +9,11 @@ app = Flask(__name__)
 
 # Your AstraDB credentials
 ASTRA_DB_API_ENDPOINT = "https://4c83898c-ce8b-4e6d-b64b-65a1c883cdef-us-east1.apps.astra.datastax.com/api/rest/v2"
-ASTRA_DB_TOKEN = "AstraCS:MEkOZlYiCGUgbiQrjHcsCDfq:4bab7b4cd28a1919937fa5594d7b59411598791fbf7d1d1f317db5e60f92d185"
+ASTRA_DB_TOKEN = "AstraCS:QkSIZZFbblOxjMkDOenIlAOL:36f46ead7b3d2c03c747ebb690edc19d7185218c2349e044458d101459bafe09"
 ASTRA_DB_NAMESPACE = "demo"
 
 # Webhook secret for security
-WEBHOOK_SECRET = "your-secure-webhook-secret-key"
+WEBHOOK_SECRET = "apn_lmhEVZl"
 
 # AstraDB headers
 headers = {
